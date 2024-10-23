@@ -1,0 +1,123 @@
+.contsc {
+  width: 100%;
+  height: 90vh;
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formlogs {
+  width: 40vw;
+  height: 60vh;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgb(46, 46, 46);
+}
+.sup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+  width: 30vw;
+  height: 55vh;
+  gap: 15px;
+}
+.signupreg {
+  /* border: 1px solid black; */
+  height: 4.4vh;
+  display: flex;
+  align-items: center;
+}
+.regbtns {
+  display: flex;
+  gap: 5px;
+}
+
+.unames {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  /* border: 1px solid black; */
+  width: 25vw;
+}
+.unames input {
+  border-radius: 5px;
+  height: 5vh;
+  background-color: rgb(242, 222, 156);
+  font-size: large;
+  border: none;
+}
+.upasss {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  /* border: 1px solid black; */
+  width: 25vw;
+}
+.upasss input {
+  border-radius: 5px;
+  height: 5vh;
+  background-color: rgb(242, 222, 156);
+  font-size: large;
+  border: none;
+}
+.sup button {
+  width: 10vw;
+  height: 5vh;
+  border-radius: 10px;
+  font-size: large;
+  border: none;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+
+.regbtns a {
+  color: #ccd2ff;
+  text-decoration: none;
+}
+.sup button:hover {
+  background-color: white;
+  color: black;
+}
+.regbtns a:hover {
+  color: black;
+  cursor: pointer;
+}
+.upasss input:focus {
+  background-color: white;
+}
+.unames input:focus {
+  background-color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .formlogs {
+    width: 80vw;
+  }
+
+  .unames {
+    width: 60vw;
+  }
+
+  .upasss {
+    width: 60vw;
+  }
+  .sup .regbtnssss {
+    width: 20vw;
+  }
+  .signupreg {
+    /* border: 1px solid black; */
+    height: 4.4vh;
+    display: flex;
+    align-items: center;
+  }
+  .regbtns .sgnupha {
+    /* border: 1px solid black; */
+  }
+}
